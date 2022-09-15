@@ -1,0 +1,15 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html {
+	font-family: Hack, 'Open Sans', sans-serif;
+	color: #cfc9c2;
+	background-color: #24283b;
+}
+
+a {
+	text-decoration: none;
+}

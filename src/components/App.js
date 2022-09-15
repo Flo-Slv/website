@@ -4,6 +4,7 @@ import Menu from './Menu.js';
 import Sidebar from './Sidebar.js';
 
 import '../css/app.css';
+import '../css/loader.css';
 
 const App = () => {
 	useEffect(() => {
