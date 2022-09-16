@@ -22,7 +22,7 @@ const Menu = () => {
 					<a href='#contact'><span>04.</span> Contact</a>
 				</li>
 
-				<li>
+				<li id='resume'>
 					<a href='#resume'>RESUME</a>
 				</li>
 			</ul>

@@ -24,3 +24,18 @@
 	font-size: 18px;
 	transition: 0.3s;
 }
+
+#resume > a {
+	color: #eb6f92;
+	font-size: 16px;
+	margin: 20px 20px 0px 0px;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #eb6f92;
+	border-radius: 4px;
+	transition: 0.3s;
+}
+
+#resume > a:hover {
+	background-color: #2d324a;
+	transition: 0.3s;
+}
