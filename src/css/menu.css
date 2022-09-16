@@ -39,3 +39,10 @@
 	background-color: #2d324a;
 	transition: 0.3s;
 }
+
+/* For smarphones and tablets */
+@media only screen and (max-width: 810px) {
+	.menu {
+		display: none;
+	}
+}

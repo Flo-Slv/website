@@ -4,7 +4,6 @@ const Sidebar = () => {
 	return (
 		<nav className={'sidebar'}>
 			<ul>
-
 			</ul>
 		</nav>
 	);

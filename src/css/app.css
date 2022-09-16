@@ -11,3 +11,10 @@ main {
 	align-items: center;
 	font-size: 50px;
 }
+
+/* For smartphones and tablets */
+@media only screen and (max-width: 810px) {
+	main {
+		font-size: 20px;
+	}
+}
