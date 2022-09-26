@@ -65,7 +65,7 @@
 		border-radius: 50% 50% 50% 50%;
 		-webkit-transition: .5s ease-in-out;
 		transition: .5s ease-in-out;
-		box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
+		box-shadow: 0 0 0 0 #ebbcba, 0 0 0 0 #ebbcba;
 		cursor: pointer;
 	}
 
