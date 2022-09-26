@@ -5,7 +5,22 @@ import '../css/menu.css';
 const Menu = () => {
 	return (
 		<nav className={'menu'}>
-			<ul>
+			<label id='menu-hamburger'>
+				<input type='checkbox' />
+				<span className={'menu-hamburger'}>
+					<span className={'hamburger'}></span>
+				</span>
+
+				<ul>
+					<li><a href='#about'>About</a></li>
+					<li><a href='#experience'>Experience</a></li>
+					<li><a href='#projects'>Projects</a></li>
+					<li><a href='#contact'>Contact</a></li>
+					<li><a href='#resume'>RESUME</a></li>
+				</ul>
+			</label>
+
+			<ul id='menu-desktop'>
 				<li>
 					<a href='#about'><span>01.</span> About</a>
 				</li>
