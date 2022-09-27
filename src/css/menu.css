@@ -55,7 +55,7 @@
 }
 
 /* For smarphones and tablets */
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 834px) {
 	#menu-desktop {
 		display: none;
 	}
