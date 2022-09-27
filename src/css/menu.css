@@ -11,22 +11,20 @@
 .menu > ul > li {
 	list-style-type: none;
 	padding-top: 20px;
+	transition: all 0.2s ease-in-out;
+}
+
+.menu > ul > li:hover:not(:last-child) {
+	transform: scale(1.1);
 }
 
 .menu > ul > li > a {
 	color: #eb6f92;
 	padding-right: 20px;
-	transition: 0.3s;
 }
 
 .menu > ul > li > a > span {
 	color: #ebbcba;
-}
-
-.menu > ul > li > a:hover {
-	color: #ebbcba;
-	font-size: 18px;
-	transition: 0.3s;
 }
 
 #resume > a {
