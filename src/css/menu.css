@@ -3,11 +3,56 @@
 }
 
 #menu-desktop {
+	width: 100%;
+	height: 120px;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
-	padding: 50px 30px 30px 0px;
 	list-style-type: none;
+	top: 0px;
+	left: 0px;
+	padding: 50px 30px 30px 0px;
+	background-image: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 0),
+		rgba(45, 50, 74, 1),
+		rgba(0, 0, 0, 0)
+	);
+	/* background-image: linear-gradient( */
+	/* 	to top, */
+	/* 	rgba(36, 40, 59, 1), */
+	/* 	rgba(45, 50, 74, 1), */
+	/* 	rgba(45, 50, 74, 1) */
+	/* ); */
+}
+
+#menu-desktop > li:first-child {
+	margin-right: auto;
+	margin-left: 40px;
+	margin-top: -20px;
+	width: 60px;
+	height: 60px;
+	border: 1px solid #ebbcba;
+	transform: rotate(45deg);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#menu-desktop > li:first-child:hover {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	cursor: pointer;
+	background-color: #25293d;
+}
+
+#menu-desktop > li:first-child:after {
+	content: 'FS';
+	color: #eb6f92;
+	transform: rotate(-45deg);
 }
 
 #menu-desktop > li {
@@ -17,7 +62,7 @@
 	transition: all 0.2s ease-in-out;
 }
 
-#menu-desktop > li:hover:not(:last-child) {
+#menu-desktop > li:hover:not(:first-child):not(:last-child) {
 	-webkit-transform: scale(1.1);
 	-moz-transform: scale(1.1);
 	-ms-transform: scale(1.1);
@@ -34,7 +79,7 @@
 }
 
 #menu-desktop > #resume > a {
-	color: #eb6f92;
+	color: #ebbcba;
 	font-size: 16px;
 	margin: 20px 20px 0px 0px;
 	padding: 10px 10px 10px 10px;
@@ -47,7 +92,7 @@
 }
 
 #menu-desktop > #resume > a:hover {
-	background-color: #2d324a;
+	background-color: #363c59;
 	-webkit-transition: 0.3s;
 	-moz-transition: 0.3s;
 	-ms-transition: 0.3s;
