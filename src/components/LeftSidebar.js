@@ -5,7 +5,7 @@ import '../css/sidebar.css';
 const LeftSidebar = () => {
 	return (
 		<nav id={'sides'}>
-			<u className={'sidebar'}>
+			<ul className={'sidebar'}>
 				<li>
 					<a
 						href='mailto:florent.sanlaville@protonmail.ch'
@@ -60,7 +60,7 @@ const LeftSidebar = () => {
 						</svg>
 					</a>
 				</li>
-			</u>
+			</ul>
 
 			<div className={'line'}>
 				a

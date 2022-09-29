@@ -5,7 +5,7 @@ import '../css/sidebar.css';
 const RightSidebar = () => {
 	return (
 		<nav id={'sides'}>
-			<u className={'sidebar'}>
+			<ul className={'sidebar'}>
 				<li>
 					<a
 						href='https://github.com/Flo-Slv'
@@ -65,7 +65,7 @@ const RightSidebar = () => {
 						</svg>
 					</a>
 				</li>
-			</u>
+			</ul>
 
 			<div className={'line'}>
 				a
