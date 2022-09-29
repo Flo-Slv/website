@@ -15,6 +15,10 @@ footer {
 	font-size: 20px;
 }
 
+.footer-desktop > a {
+	color: #eb6f92;
+}
+
 .footer-smartphone {
 	display: none;
 }

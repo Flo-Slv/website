@@ -4,7 +4,7 @@ import Menu from './Menu.js';
 import RightSidebar from './RightSidebar.js';
 import LeftSidebar from './LeftSidebar.js';
 import About from './About.js';
-import FooterSmartphone from './FooterSmartphone.js';
+import Footer from './Footer.js';
 
 import '../css/app.css';
 import '../css/loader.css';
@@ -40,7 +40,7 @@ const App = () => {
 
 					<main>
 						<About />
-						<FooterSmartphone />
+						<Footer />
 					</main>
 
 					<LeftSidebar />
