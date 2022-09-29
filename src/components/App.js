@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 
 import Menu from './Menu.js';
-import RightSidebar from './Sidebar.js';
+import RightSidebar from './RightSidebar.js';
+import LeftSidebar from './LeftSidebar.js';
 
 import '../css/app.css';
 import '../css/loader.css';
@@ -38,6 +39,8 @@ const App = () => {
 					<main>
 						Under construction !
 					</main>
+
+					<LeftSidebar />
 				</div>
 			</div>
 		</div>

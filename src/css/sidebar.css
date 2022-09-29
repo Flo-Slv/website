@@ -1,5 +1,5 @@
-#rightside {
-	width: 120px;
+#sides {
+	width: 160px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;

@@ -4,7 +4,7 @@ import '../css/sidebar.css';
 
 const RightSidebar = () => {
 	return (
-		<nav id={'rightside'}>
+		<nav id={'sides'}>
 			<u className={'sidebar'}>
 				<li>
 					<a
