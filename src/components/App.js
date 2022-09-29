@@ -3,6 +3,8 @@ import React, { useEffect } from 'react';
 import Menu from './Menu.js';
 import RightSidebar from './RightSidebar.js';
 import LeftSidebar from './LeftSidebar.js';
+import About from './About.js';
+import FooterSmartphone from './FooterSmartphone.js';
 
 import '../css/app.css';
 import '../css/loader.css';
@@ -37,7 +39,8 @@ const App = () => {
 					<RightSidebar />
 
 					<main>
-						Under construction !
+						<About />
+						<FooterSmartphone />
 					</main>
 
 					<LeftSidebar />

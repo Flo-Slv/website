@@ -1,0 +1,35 @@
+footer {
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 60px;
+}
+
+.footer-desktop {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-bottom: 160px;
+	width: 100%;
+	font-size: 20px;
+}
+
+.footer-smartphone {
+	display: none;
+}
+
+@media only screen and (max-width: 834px) {
+	.footer-desktop {
+		display: none;
+	}
+
+	.footer-smartphone {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-end;
+		color: red;
+		list-style-type: none;
+	}
+}
