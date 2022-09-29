@@ -5,6 +5,7 @@
 }
 
 body, html {
+	height: 100%;
 	font-family: Hack, 'Open Sans', sans-serif;
 	color: #cfc9c2;
 	background-color: #24283b;

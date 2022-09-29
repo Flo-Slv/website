@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
 import Menu from './Menu.js';
-import Sidebar from './Sidebar.js';
+import RightSidebar from './Sidebar.js';
 
 import '../css/app.css';
 import '../css/loader.css';
@@ -32,11 +32,13 @@ const App = () => {
 					<Menu />
 				</header>
 
-				<Sidebar />
+				<div className={'content'}>
+					<RightSidebar />
 
-				<main>
-					Under construction !
-				</main>
+					<main>
+						Under construction !
+					</main>
+				</div>
 			</div>
 		</div>
 	);

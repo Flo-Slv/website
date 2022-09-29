@@ -6,13 +6,12 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
-	padding-top: 30px;
+	padding-top: 50px;
 	padding-right: 30px;
+	list-style-type: none;
 }
 
 #menu-desktop > li {
-	list-style-type: none;
-	padding-top: 20px;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
