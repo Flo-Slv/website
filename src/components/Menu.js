@@ -12,11 +12,11 @@ const Menu = () => {
 				</span>
 
 				<ul>
-					<li><a href='#about'>About</a></li>
-					<li><a href='#experience'>Experience</a></li>
-					<li><a href='#projects'>Projects</a></li>
-					<li><a href='#contact'>Contact</a></li>
-					<li><a href='#resume'>RESUME</a></li>
+					<li><a href='#about'>A propos</a></li>
+					<li><a href='#experience'>Expérience</a></li>
+					<li><a href='#projects'>Projets</a></li>
+					<li><a href='#contact'>Me contacter</a></li>
+					<li><a href='#resume'>CV</a></li>
 				</ul>
 			</label>
 
@@ -25,23 +25,23 @@ const Menu = () => {
 				</li>
 
 				<li>
-					<a href='#about'><span>01.</span> About</a>
+					<a href='#about'><span>01.</span> A propos</a>
 				</li>
 
 				<li>
-					<a href='#experience'><span>02.</span> Experience</a>
+					<a href='#experience'><span>02.</span> Expérience</a>
 				</li>
 
 				<li>
-					<a href='#projects'><span>03.</span> Projects</a>
+					<a href='#projects'><span>03.</span> Projets</a>
 				</li>
 
 				<li>
-					<a href='#contact'><span>04.</span> Contact</a>
+					<a href='#contact'><span>04.</span> Me contacter</a>
 				</li>
 
 				<li id='resume'>
-					<a href='#resume'>RESUME</a>
+					<a href='#resume'>CV</a>
 				</li>
 			</ul>
 		</nav>
