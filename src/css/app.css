@@ -1,8 +1,12 @@
 #animated {
 	opacity: 0;
+	-webkit-transition: opacity 1.2s ease-in-out;
+	-moz-transition: opacity 1.2s ease-in-out;
+	-ms-transition: opacity 1.2s ease-in-out;
 	transition: opacity 1.2s ease-in-out;
 	height: 100vh;
 	overflow: hidden;
+	padding-top: 120px;
 }
 
 .content {

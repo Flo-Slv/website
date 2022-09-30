@@ -10,7 +10,7 @@ footer {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	padding-bottom: 160px;
+	padding-bottom: 60px;
 	width: 100%;
 	font-size: 20px;
 }
