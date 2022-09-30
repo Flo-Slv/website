@@ -23,6 +23,7 @@ main {
 	-ms-overflow-style: none; /* not display scrollbar for IE and Edge */
 	scrollbar-width: none; /* not display scrollbar for Firefox */
 	overflow-y: scroll;
+	scroll-behavior: smooth;
 	padding: 120px 200px 0px 300px;
 }
 
