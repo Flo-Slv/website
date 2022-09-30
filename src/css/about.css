@@ -1,0 +1,49 @@
+#about {
+	display: flex;
+	flex-direction: column;
+}
+
+about {
+	width: 650px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	font-size: 30px;
+	padding-bottom: 50px;
+}
+
+about > .about-me {
+	width: 76%;
+	color: #eb6f92;
+}
+
+about > .about-me > span {
+	color: #ebbcba;
+}
+
+about > .vertical-line {
+	width: 100%;
+	flex-shrink: 2;
+}
+
+about > .vertical-line > hr {
+	color: #ebbcba;
+	opacity: 0.2;
+}
+
+description {
+	display: flex;
+	flex-direction: row;
+	font-size: 18px;
+}
+
+description > .text {
+	width: 650px;
+	padding-right: 30px;
+}
+
+description > .text > p {
+	padding-bottom: 20px;
+	text-align: justify;
+}

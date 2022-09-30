@@ -4,6 +4,7 @@ import Menu from './Menu.js';
 import RightSidebar from './RightSidebar.js';
 import LeftSidebar from './LeftSidebar.js';
 import Intro from './Intro.js';
+import About from './About.js';
 import Footer from './Footer.js';
 
 import '../css/app.css';
@@ -40,6 +41,7 @@ const App = () => {
 
 					<main>
 						<Intro />
+						<About />
 						<Footer />
 					</main>
 
