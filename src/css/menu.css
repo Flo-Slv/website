@@ -8,6 +8,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
+	align-items: center;
 	list-style-type: none;
 	position: fixed;
 	top: 0px;
@@ -27,34 +28,39 @@
 	/* ); */
 }
 
+/* Logo */
 #menu-desktop > li:first-child {
-	margin-right: auto;
+	margin-right: auto; /* To avoid flex-end */
 	margin-left: 40px;
-	margin-top: -20px;
 	width: 60px;
 	height: 60px;
 	border: 1px solid #ebbcba;
-	transform: rotate(45deg);
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-}
-
-#menu-desktop > li:first-child:hover {
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
+}
+
+#menu-desktop > li:first-child:hover {
 	cursor: pointer;
 	background-color: #25293d;
 }
 
-#menu-desktop > li:first-child:after {
-	content: 'FS';
-	color: #eb6f92;
+#menu-desktop > li:first-child > a {
+	width: 60px;
+	height: 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 }
+
+/* End Logo */
 
 #menu-desktop > li {
 	-webkit-transition: all 0.2s ease-in-out;

@@ -22,6 +22,7 @@ const Menu = () => {
 
 			<ul id='menu-desktop'>
 				<li>
+					<a href='#intro'>FS</a>
 				</li>
 
 				<li>
