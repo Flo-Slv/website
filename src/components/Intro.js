@@ -19,6 +19,21 @@ const Intro = () => {
 				</p>
 				<p>Je suis actuellement à la recherche d'un emploi.</p>
 			</div>
+
+			<div id='square'>
+				<div id='top'></div>
+				<div id='right'></div>
+				<div id='bottom'></div>
+				<div id='left'></div>
+			</div>
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
 		</section>
 	);
 };
