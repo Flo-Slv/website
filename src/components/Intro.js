@@ -2,9 +2,9 @@ import React from 'react';
 
 import '../css/about.css';
 
-const About = () => {
+const Intro = () => {
 	return (
-		<section id={'about'}>
+		<section id='intro'>
 			<h1>Salut, je m'appelle</h1>
 
 			<div className={'name'}>Florent Sanlaville.</div>
@@ -23,4 +23,4 @@ const About = () => {
 	);
 };
 
-export default About;
+export default Intro;

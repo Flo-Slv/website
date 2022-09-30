@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import Menu from './Menu.js';
 import RightSidebar from './RightSidebar.js';
 import LeftSidebar from './LeftSidebar.js';
-import About from './About.js';
+import Intro from './Intro.js';
 import Footer from './Footer.js';
 
 import '../css/app.css';
@@ -39,7 +39,7 @@ const App = () => {
 					<RightSidebar />
 
 					<main>
-						<About />
+						<Intro />
 						<Footer />
 					</main>
 

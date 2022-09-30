@@ -1,4 +1,4 @@
-#about {
+#intro {
 	font-size: 18px;
 }
 
@@ -25,6 +25,7 @@ h1 {
 
 .description {
 	width: 500px;
+	height: 500px;
 }
 
 .description > p {
