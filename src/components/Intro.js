@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../css/about.css';
+import '../css/intro.css';
 
 const Intro = () => {
 	return (
