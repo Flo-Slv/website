@@ -38,6 +38,7 @@
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
 
@@ -58,15 +59,15 @@
 	-webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 }
-
 /* End Logo */
 
 #menu-desktop > li {
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
 
@@ -74,6 +75,7 @@
 	-webkit-transform: scale(1.1);
 	-moz-transform: scale(1.1);
 	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
 	transform: scale(1.1);
 }
 
@@ -97,7 +99,7 @@
 	border-radius: 4px;
 	-webkit-transition: 0.3s;
 	-moz-transition: 0.3s;
-	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
 	transition: 0.3s;
 }
 
@@ -105,7 +107,7 @@
 	background-color: #363c59;
 	-webkit-transition: 0.3s;
 	-moz-transition: 0.3s;
-	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
 	transition: 0.3s;
 }
 
@@ -130,7 +132,7 @@
 		border-radius: 50%;
 		-webkit-transition: 0.5s ease-in-out;
 		-moz-transition: 0.5s ease-in-out;
-		-ms-transition: 0.5s ease-in-out;
+		-o-transition: 0.5s ease-in-out;
 		transition: 0.5s ease-in-out;
 		box-shadow: 0 0 0 0 #ebbcba, 0 0 0 0 #ebbcba;
 		cursor: pointer;
@@ -147,17 +149,18 @@
 		-webkit-transform-origin: center;
 		-moz-transform-origin: center;
 		-ms-transform-origin: center;
+		-o-transform-origin: center;
 		transform-origin: center;
 		-webkit-transition: 0.5s ease-in-out;
 		-moz-transition: 0.5s ease-in-out;
-		-ms-transition: 0.5s ease-in-out;
+		-o-transition: 0.5s ease-in-out;
 		transition: 0.5s ease-in-out;
 	}
 
 	label .hamburger:after, label .hamburger:before {
 		-webkit-transition: 0.5s ease-in-out;
 		-moz-transition: 0.5s ease-in-out;
-		-ms-transition: 0.5s ease-in-out;
+		-o-transition: 0.5s ease-in-out;
 		transition: 0.5s ease-in-out;
 		content: "";
 		position: absolute;
@@ -182,6 +185,7 @@
 		-webkit-transform: rotate(45deg);
 		-moz-transform: rotate(45deg);
 		-ms-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
 		transform: rotate(45deg);
 	}
 
@@ -189,6 +193,7 @@
 		-webkit-transform: rotate(90deg);
 		-moz-transform: rotate(90deg);
 		-ms-transform: rotate(90deg);
+		-o-transform: rotate(90deg);
 		transform: rotate(90deg);
 		bottom: 0;
 	}
@@ -197,6 +202,7 @@
 		-webkit-transform: rotate(90deg);
 		-moz-transform: rotate(90deg);
 		-ms-transform: rotate(90deg);
+		-o-transform: rotate(90deg);
 		transform: rotate(90deg);
 		top: 0;
 	}
@@ -211,11 +217,12 @@
 		-webkit-transform: translate(-50%, -50%);
 		-moz-transform: translate(-50%, -50%);
 		-ms-transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);
 		transform: translate(-50%, -50%);
 		opacity: 0;
 		-webkit-transition: 0.25s 0s ease-in-out;
 		-moz-transition: 0.25s 0s ease-in-out;
-		-ms-transition: 0.25s 0s ease-in-out;
+		-o-transition: 0.25s 0s ease-in-out;
 		transition: 0.25s 0s ease-in-out;
 	}
 
