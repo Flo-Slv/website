@@ -30,7 +30,7 @@ const About = () => {
 					</p>
 
 					<p>
-						Je vous laisse le soin de consulter mon <a href='#'>CV</a> pour en apprendre plus sur mon parcours professionnel !
+						Je vous laisse le soin de consulter mon <a href='#resume'>CV</a> pour en apprendre plus sur mon parcours professionnel !
 					</p>
 
 					<p>
@@ -51,7 +51,7 @@ const About = () => {
 				</div>
 
 				<div className={'pp'}>
-					<img src='./images/face_co.png' />
+					<img src='./images/face_co.png' alt='Profile' />
 				</div>
 			</description>
 
