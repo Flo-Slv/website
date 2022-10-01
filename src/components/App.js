@@ -31,8 +31,8 @@ const App = () => {
 					<div id='right'></div>
 					<div id='bottom'></div>
 					<div id='left'></div>
-					<div id='final-square'></div>
 				</div>
+				<div id='final-square'></div>
 			</div>
 
 			<div id='animated'>

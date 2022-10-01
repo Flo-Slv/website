@@ -12,6 +12,23 @@
 	background-color: #24283b;
 }
 
+#final-square {
+	position: absolute;
+	top: calc(50% - 64px);
+	left: calc(50% - 35px);
+	width: 100px;
+	height: 100px;
+	border: 6px solid #eb6f92;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-animation: final 5s linear 1;
+	-moz-animation: final 5s linear 1;
+	animation: final 5s linear 1;
+}
+
 #top {
 	position: relative;
 	top: 50%;
@@ -101,23 +118,6 @@
 	font-weight: bold;
 }
 
-#final-square {
-	position: relative;
-	top: calc(50% - 22px);
-	left: calc(50% - 34px);
-	width: 100px;
-	height: 100px;
-	border: 2px solid #eb6f92;
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	transform: rotate(45deg);
-	-webkit-animation: final 5s linear 1;
-	-moz-animation: final 5s linear 1;
-	animation: final 5s linear 1;
-}
-
 @-webkit-keyframes final {
 	0% {
 		opacity: 0;
@@ -158,14 +158,17 @@
 	0% {
 		opacity: 0;
 	}
-	25% {
-		opacity: 0.25;
+	30% {
+		opacity: 0.10;
 	}
 	50% {
-		opacity: 0.5;
+		opacity: 0.20;
 	}
 	75% {
-		opacity: 0.75;
+		opacity: 0.40;
+	}
+	85% {
+		opacity: 0.60;
 	}
 	100% {
 		opacity: 1;
@@ -176,14 +179,17 @@
 	0% {
 		opacity: 0;
 	}
-	25% {
-		opacity: 0.25;
+	30% {
+		opacity: 0.10;
 	}
 	50% {
-		opacity: 0.5;
+		opacity: 0.20;
 	}
 	75% {
-		opacity: 0.75;
+		opacity: 0.40;
+	}
+	85% {
+		opacity: 0.60;
 	}
 	100% {
 		opacity: 1;
@@ -194,14 +200,17 @@
 	0% {
 		opacity: 0;
 	}
-	25% {
-		opacity: 0.25;
+	30% {
+		opacity: 0.10;
 	}
 	50% {
-		opacity: 0.5;
+		opacity: 0.20;
 	}
 	75% {
-		opacity: 0.75;
+		opacity: 0.40;
+	}
+	85% {
+		opacity: 0.60;
 	}
 	100% {
 		opacity: 1;
@@ -212,14 +221,17 @@
 	0% {
 		opacity: 0;
 	}
-	25% {
-		opacity: 0.25;
+	30% {
+		opacity: 0.10;
 	}
 	50% {
-		opacity: 0.5;
+		opacity: 0.20;
 	}
 	75% {
-		opacity: 0.75;
+		opacity: 0.40;
+	}
+	85% {
+		opacity: 0.60;
 	}
 	100% {
 		opacity: 1;
