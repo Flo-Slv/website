@@ -47,3 +47,27 @@ description > .text > p {
 	padding-bottom: 20px;
 	text-align: justify;
 }
+
+description > .text > p > span,
+description > .text > p > a {
+	color: #eb6f92;
+}
+
+description > .text > p > a {
+	-webkit-transition: box-shadow 0.3s;
+	-moz-transition: box-shadow 0.3s;
+	-o-transition: box-shadow 0.3s;
+	transition: box-shadow 0.3s;
+}
+
+description > .text > p > a:hover {
+	-webkit-box-shadow: 0px 0px 11px #ebbcba;
+	-moz-box-shadow: 0px 0px 11px #ebbcba;
+	box-shadow: 0px 0px 11px #ebbcba;
+	border-radius: 4px;
+	-webkit-transition: box-shadow 0.3s;
+	-moz-transition: box-shadow 0.3s;
+	-o-transition: box-shadow 0.3s;
+	transition: box-shadow 0.3s;
+	font-weight: bold;
+}

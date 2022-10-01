@@ -18,35 +18,35 @@ const About = () => {
 			<description>
 				<div className={'text'}>
 					<p>
-						Bonjour, je m'appelle Florent Sanlaville, mais l'on me surnomme Flo !
+						Bonjour, je m'appelle <i>Florent Sanlaville</i>, mais l'on me surnomme <span>Flo</span> !
 					</p>
 
 					<p>
-						Apres plusieurs annees sans toucher a une ligne de code et avoir ete coach sportif puis sans emploi, je suis de retour dans l'univers du developpement web.
+						Apres plusieurs années sans toucher à une ligne de code, après avoir été coach sportif puis sans emploi, je suis de retour dans l'univers du développement web.
 					</p>
 
 					<p>
-						J'ai travaille quelques annees dans des startups francaises sur des technos comme Node.js et React puis je suis alle chez nos amis helvetique a Basel pendant 1 an et demi ou je travaillais avec la meme stack.
+						J'ai travaillé quelques années dans des startups francaises sur des technos comme <span>Node.js</span> et <span>React</span> puis je suis allé chez nos amis helvétique à Basel, pendant 1 an et demi, où je travaillais avec la meme stack.
 					</p>
 
 					<p>
-						Je vous laisse le soin de consulter mon <a href='#resume'>CV</a> pour en apprendre plus sur mon parcours professionnel !
+						Je vous laisse le soin de consulter mon <a href='#resume'>Curriculum Vitae</a> pour en apprendre plus sur mon parcours professionnel !
 					</p>
 
 					<p>
-						J'adore le web et tout ce qui s'en approche. J'aime configurer mon setup et je suis un fervent supporter de Vim et de son successeur Neovim.
+						J'adore le web et tout ce qui s'en approche. J'aime configurer mon setup et je suis un fervent utilisateur de <span>Vim</span> et de son successeur <span>Neovim</span>.
 					</p>
 
 					<p>
-						Je me definis comme un <i>esprit vif</i>. Je suis a l'aise avec les technos que je ne connais pas car je sais que je suis capable de les assimiler rapidement.
+						Je me definis comme un <i>esprit vif</i>. Je suis à l'aise avec les technos que je ne connais pas car je sais que je suis capable de les assimiler rapidement.
 					</p>
 
 					<p>
-						J'aime le challenge mais je tends maintenant a me poser et devenir un expert dans l'ecosysteme JavaScript, back comme front.
+						J'aime le challenge mais je tends maintenant à me poser et devenir un expert dans l'écosysteme <span>JavaScript</span>, back comme front.
 					</p>
 
 					<p>
-						J'apprends actuellement TypeScript grace a Execute Program et j'essaie egalement d'apprendre egalement Rust qui est un langage bas niveau.
+						J'apprends actuellement <span>TypeScript</span>, grâce à <a href='https://www.executeprogram.com/' target='_blank' rel='noopener noreferrer'>Execute Program</a>, et j'essaie également d'apprendre <span>Rust</span> qui est un langage bas niveau.
 					</p>
 				</div>
 
