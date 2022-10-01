@@ -51,12 +51,13 @@ const About = () => {
 				</div>
 
 				<div className={'pp'}>
-					<img src='./images/face_co.png' alt='Profile' />
+					<figure>
+						<figcaption>Flo Slv, 2022</figcaption>
+					</figure>
 				</div>
 			</description>
 
 			<langages>
-
 			</langages>
 		</section>
 	);

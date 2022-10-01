@@ -7,7 +7,6 @@ about {
 	width: 650px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
 	align-items: center;
 	font-size: 30px;
 	padding-bottom: 50px;
@@ -35,12 +34,12 @@ about > .vertical-line > hr {
 description {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 	font-size: 18px;
 }
 
 description > .text {
 	width: 650px;
-	padding-right: 30px;
 }
 
 description > .text > p {
@@ -78,4 +77,137 @@ description > .text > p > a:hover {
 	-o-transition: box-shadow 0.3s;
 	transition: box-shadow 0.3s;
 	font-weight: bold;
+}
+
+.pp {
+	width: 300px;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	perspective: 1000px;
+	margin: 0 auto;
+}
+
+.pp > figure {
+	width: 100%;
+	height: 300px;
+	background: url('../img/face_co.png');
+	-webkit-background-size: 100%; 
+	-moz-background-size: 100%; 
+	background-size: 100%; 
+	-webkit-transform-origin: center bottom;
+	-moz-transform-origin: center bottom;
+	-ms-transform-origin: center bottom;
+	-o-transform-origin: center bottom;
+	transform-origin: center bottom;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition: 1s transform;
+	-moz-transition: 1s transform;
+	-o-transition: 1s transform;
+	transition: 1s transform;
+}
+
+.pp > figure > figcaption { 
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), black;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	background-size: 100%;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	color: #fff; 
+	position: relative;
+	top: 300px;
+	-webkit-transform-origin: center top;
+	-moz-transform-origin: center top;
+	-ms-transform-origin: center top;
+	-o-transform-origin: center top;
+	transform-origin: center top;
+	-webkit-transform: rotateX(-89.9deg);
+	-moz-transform: rotateX(-89.9deg);
+	-ms-transform: rotateX(-89.9deg);
+	-o-transform: rotateX(-89.9deg);
+	transform: rotateX(-89.9deg);
+	font-size: 18px;
+	font-family: Montserrat, Arial, sans-serif;
+	text-align: center;
+	line-height: 3;
+}
+
+.pp > figure:before {
+	content: '';
+	position: absolute;
+	top: 0; 
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.1), inset 0 0 250px 250px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.1), inset 0 0 250px 250px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.1), inset 0 0 250px 250px rgba(0, 0, 0, 0.1);
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+	-webkit-transform: rotateX(95deg) translateZ(-80px) scale(0.75);
+	-moz-transform: rotateX(95deg) translateZ(-80px) scale(0.75);
+	-ms-transform: rotateX(95deg) translateZ(-80px) scale(0.75);
+	-o-transform: rotateX(95deg) translateZ(-80px) scale(0.75);
+	transform: rotateX(95deg) translateZ(-80px) scale(0.75);
+	-webkit-transform-origin: inherit;
+	-moz-transform-origin: inherit;
+	-ms-transform-origin: inherit;
+	-o-transform-origin: inherit;
+	transform-origin: inherit;
+}
+
+.pp:hover > figure { 
+	-webkit-transform: rotateX(75deg) translateZ(5vw); 
+	-moz-transform: rotateX(75deg) translateZ(5vw); 
+	-ms-transform: rotateX(75deg) translateZ(5vw); 
+	-o-transform: rotateX(75deg) translateZ(5vw); 
+	transform: rotateX(75deg) translateZ(5vw); 
+}
+
+.pp:hover > figure:before {
+	-webkit-box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.5), inset 0 0 250px 250px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.5), inset 0 0 250px 250px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.5), inset 0 0 250px 250px rgba(0, 0, 0, 0.5);
+	-webkit-transform: rotateX(-5deg) translateZ(-80px) scale(1);
+	-moz-transform: rotateX(-5deg) translateZ(-80px) scale(1);
+	-ms-transform: rotateX(-5deg) translateZ(-80px) scale(1);
+	-o-transform: rotateX(-5deg) translateZ(-80px) scale(1);
+	transform: rotateX(-5deg) translateZ(-80px) scale(1);
+}
+
+@media screen and (max-width: 834px) {
+	.pp {
+		width: 50%;
+	} 
+
+	.pp > figure {
+		height: 45vw;
+	} 
+
+	.pp > figure > figcaption { 
+		top: 45vw;
+		font-size: 2vw;
+	} 
+}
+
+@media screen and (max-width: 500px) {
+	.pp { 
+		width: 80%; 
+		margin-top: 1rem; 
+	} 
+
+	.pp > figure { 
+		height: 70vw;
+	} 
+
+	.pp > figure > figcaption { 
+		top: 70vw;
+		font-size: 3vw;
+	} 
 }
