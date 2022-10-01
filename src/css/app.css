@@ -1,13 +1,13 @@
 #animated {
-	/* opacity: 0; */
-	opacity: 1;
+	opacity: 0;
 	-webkit-transition: opacity 1.2s ease-in-out;
 	-moz-transition: opacity 1.2s ease-in-out;
 	-ms-transition: opacity 1.2s ease-in-out;
 	transition: opacity 1.2s ease-in-out;
-	height: 100vh;
+	height: 0px;
 	overflow: hidden;
-	padding-top: 120px;
+	/* We set rules in JS after loading of animation */
+	/* opacity: 1; height: 100vh; padding-top: 120px; */
 }
 
 .content {
@@ -31,8 +31,6 @@ main {
 main::-webkit-scrollbar {
     display: none; /* not display scrollbar for Chrome, Safari and Opera */
 }
-
-
 
 /* For smartphones and tablets */
 @media only screen and (max-width: 834px) {

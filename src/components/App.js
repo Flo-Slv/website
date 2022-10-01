@@ -11,24 +11,28 @@ import '../css/app.css';
 import '../css/loader.css';
 
 const App = () => {
-	// useEffect(() => {
-	// 	setTimeout(() => {
-	// 		const animated = document.getElementById('animated');
-	//
-	// 		animated.style.opacity = 1;
-	// 	}, 6000);
-	// });
+	useEffect(() => {
+		setTimeout(() => {
+			const animated = document.getElementById('animated');
+			const loader = document.getElementById('loader');
+
+			animated.style.opacity = 1;
+			animated.style.height = '100vh';
+			animated.style.paddingTop = '120px';
+			loader.style.display = 'none';
+		}, 6000);
+	});
 
 	return (
 		<div className={'app'}>
 			<div id='loader'>
-				{/*<div>V</div>*/}
-				{/*<div>L</div>*/}
-				{/*<div>S</div>*/}
-				{/*<div>-</div>*/}
-				{/*<div>O</div>*/}
-				{/*<div>L</div>*/}
-				{/*<div>F</div>*/}
+				<div id='square'>
+					<div id='top'></div>
+					<div id='right'></div>
+					<div id='bottom'></div>
+					<div id='left'></div>
+					<div id='final-square'></div>
+				</div>
 			</div>
 
 			<div id='animated'>
