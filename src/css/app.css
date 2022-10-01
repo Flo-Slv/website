@@ -25,7 +25,7 @@ main {
 	scrollbar-width: none; /* not display scrollbar for Firefox */
 	overflow-y: scroll;
 	scroll-behavior: smooth;
-	padding: 120px 200px 0px 300px;
+	padding: 0px 200px 0px 300px;
 }
 
 main::-webkit-scrollbar {
