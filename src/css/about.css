@@ -46,6 +46,8 @@ description > .text {
 description > .text > p {
 	padding-bottom: 20px;
 	text-align: justify;
+	text-indent: 40px;
+	line-height: 24px;
 }
 
 description > .text > p > span,
@@ -53,11 +55,17 @@ description > .text > p > a {
 	color: #eb6f92;
 }
 
+description > .text > p > .full-name {
+	font-weight: bold;
+	color: #ebbcba;
+}
+
 description > .text > p > a {
 	-webkit-transition: box-shadow 0.3s;
 	-moz-transition: box-shadow 0.3s;
 	-o-transition: box-shadow 0.3s;
 	transition: box-shadow 0.3s;
+	padding: 0px 2px 0px 2px;
 }
 
 description > .text > p > a:hover {

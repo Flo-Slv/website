@@ -18,11 +18,11 @@ const About = () => {
 			<description>
 				<div className={'text'}>
 					<p>
-						Bonjour, je m'appelle <i>Florent Sanlaville</i>, mais l'on me surnomme <span>Flo</span> !
+						Bonjour, je m'appelle <span className={'full-name'}>Florent Sanlaville</span>, mais l'on me surnomme <span>Flo</span> !
 					</p>
 
 					<p>
-						Apres plusieurs années sans toucher à une ligne de code, après avoir été coach sportif puis sans emploi, je suis de retour dans l'univers du développement web.
+						Après plusieurs années sans toucher à une ligne de code, après avoir été coach sportif puis sans emploi, je suis de retour dans l'univers du développement web (Janvier 2023). Je suis à l'écoute d'une <span>nouvelle opportunité</span> professionnelle.
 					</p>
 
 					<p>
@@ -30,7 +30,7 @@ const About = () => {
 					</p>
 
 					<p>
-						Je vous laisse le soin de consulter mon <a href='#resume'>Curriculum Vitae</a> pour en apprendre plus sur mon parcours professionnel !
+						Voici mon <a href='#resume'>Curriculum Vitae</a> pour en apprendre plus sur mon parcours professionnel !
 					</p>
 
 					<p>
@@ -46,7 +46,7 @@ const About = () => {
 					</p>
 
 					<p>
-						J'apprends actuellement <span>TypeScript</span>, grâce à <a href='https://www.executeprogram.com/' target='_blank' rel='noopener noreferrer'>Execute Program</a>, et j'essaie également d'apprendre <span>Rust</span> qui est un langage bas niveau.
+						Grâce à <a href='https://www.executeprogram.com/' target='_blank' rel='noopener noreferrer'>Execute Program</a>, j'apprends <span>TypeScript</span>, et j'essaie également de me former sur <span>Rust</span> qui est un langage bas niveau.
 					</p>
 				</div>
 
