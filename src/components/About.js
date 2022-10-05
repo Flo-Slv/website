@@ -5,7 +5,7 @@ import '../css/about.css';
 const About = () => {
 	return (
 		<section id='about'>
-			<titleSectionLeft>
+			<div className={'titleSectionLeft'}>
 				<div className={'about-me'}>
 					<span>01.</span> À propos de moi
 				</div>
@@ -13,7 +13,7 @@ const About = () => {
 				<div className={'vertical-line'}>
 					<hr />
 				</div>
-			</titleSectionLeft>
+			</div>
 
 			<description>
 				<div className={'text'}>

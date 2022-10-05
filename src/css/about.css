@@ -3,7 +3,7 @@
 	flex-direction: column;
 }
 
-titleSectionLeft {
+.titleSectionLeft {
 	width: 650px;
 	display: flex;
 	flex-direction: row;
@@ -12,21 +12,21 @@ titleSectionLeft {
 	padding-bottom: 50px;
 }
 
-titleSectionLeft > .about-me {
+.titleSectionLeft > .about-me {
 	width: 76%;
 	color: #eb6f92;
 }
 
-titleSectionLeft > .about-me > span {
+.titleSectionLeft > .about-me > span {
 	color: #ebbcba;
 }
 
-titleSectionLeft > .vertical-line {
+.titleSectionLeft > .vertical-line {
 	width: 100%;
 	flex-shrink: 2;
 }
 
-titleSectionLeft > .vertical-line > hr {
+.titleSectionLeft > .vertical-line > hr {
 	color: #ebbcba;
 	opacity: 0.2;
 }
@@ -79,7 +79,7 @@ description > .text > p > a:hover {
 	font-weight: bold;
 }
 
-.pp {
+description > .pp {
 	width: 300px;
 	-webkit-perspective: 1000px;
 	-moz-perspective: 1000px;
@@ -87,7 +87,7 @@ description > .text > p > a:hover {
 	margin: 0 auto;
 }
 
-.pp > figure {
+description > .pp > figure {
 	width: 100%;
 	height: 300px;
 	background: url('../img/face_co.png');
@@ -108,7 +108,7 @@ description > .text > p > a:hover {
 	transition: 1s transform;
 }
 
-.pp > figure > figcaption { 
+description > .pp > figure > figcaption { 
 	width: 100%;
 	height: 50px;
 	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), black;
