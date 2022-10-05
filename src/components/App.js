@@ -6,6 +6,7 @@ import LeftSidebar from './LeftSidebar.js';
 import Intro from './Intro.js';
 import About from './About.js';
 import Experience from './Experience.js';
+import Projects from './Projects.js';
 import Footer from './Footer.js';
 
 import '../css/app.css';
@@ -48,6 +49,7 @@ const App = () => {
 						<Intro />
 						<About />
 						<Experience />
+						<Projects />
 						<Footer />
 					</main>
 
