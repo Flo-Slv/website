@@ -26,7 +26,7 @@ const About = () => {
 					</p>
 
 					<p>
-						J'ai travaillé quelques années dans des startups francaises sur des technos comme <span>Node.js</span> et <span>React.js</span> puis je suis allé chez nos amis helvétique à Basel, pendant 1 an et demi, où je travaillais avec la meme stack.
+						J'ai travaillé quelques années dans des startups francaises sur des technos comme <span>Node.js</span> et <span>React.js</span> puis je suis allé chez nos amis helvétique à Basel, pendant 1 an et demi, où je travaillais avec la même stack.
 					</p>
 
 					<p>
