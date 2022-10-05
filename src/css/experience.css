@@ -2,7 +2,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
-	padding-top: 400px;
+	margin-top: 400px;
 }
 
 .titleSectionRight {
@@ -48,7 +48,7 @@
 }
 
 .accordion-title {
-	width: 150px;
+	width: 160px;
 	height: 150px;
 	display: flex;
 	flex-direction: row;
@@ -109,19 +109,18 @@
 	font-size: 20px;
 }
 
+.content-date,
+.content-city {
+	padding-top: 10px;
+	color: #eb6f92;
+}
+
 .content-date {
 	font-style: italic;
-	padding-top: 10px;
 }
 
-.accordion-content > .active-content > ul {
-	list-style-type: none;
-}
-
-.accordion-content > .active-content > ul > li:before {
-	content: '▹';
-	font-size: 26px;
-	padding-right: 10px;
+.content-city {
+	font-weight: bold;
 }
 
 .accordion-content > .active-content > .content-job > a {
@@ -143,4 +142,19 @@
 	-o-transition: box-shadow 0.3s;
 	transition: box-shadow 0.3s;
 	font-weight: bold;
+}
+
+.accordion-content > .active-content > ul {
+	list-style-type: none;
+	padding-top: 30px;
+}
+
+.accordion-content > .active-content > ul > li {
+	padding-bottom: 10px;
+}
+
+.accordion-content > .active-content > ul > li:before {
+	content: '▹';
+	font-size: 26px;
+	padding-right: 10px;
 }
