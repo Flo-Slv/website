@@ -1,22 +1,38 @@
 footer {
 	height: 100px;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
 	margin-top: 60px;
 }
 
 .footer-desktop {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
+	align-items: center;
+	gap: 20px;
 	padding-bottom: 60px;
-	width: 100%;
-	font-size: 20px;
+	font-size: 18px;
+	text-align: justify;
 }
 
-.footer-desktop > a {
+.footer-desktop > div > a {
 	color: #eb6f92;
+	-webkit-transition: box-shadow 0.3s;
+	-moz-transition: box-shadow 0.3s;
+	-o-transition: box-shadow 0.3s;
+	transition: box-shadow 0.3s;
+	padding: 0px 2px 0px 2px;
+}
+
+.footer-desktop > div > a:hover {
+	-webkit-box-shadow: 0px 0px 11px #ebbcba;
+	-moz-box-shadow: 0px 0px 11px #ebbcba;
+	box-shadow: 0px 0px 11px #ebbcba;
+	border-radius: 4px;
+	-webkit-transition: box-shadow 0.3s;
+	-moz-transition: box-shadow 0.3s;
+	-o-transition: box-shadow 0.3s;
+	transition: box-shadow 0.3s;
+	font-weight: bold;
 }
 
 .footer-smartphone {
