@@ -12,6 +12,10 @@ const Projects = () => {
 				title={'Projets'}
 				name={'projects'}
 			/>
+
+			<div>
+
+			</div>
 		</section>
 	);
 };
