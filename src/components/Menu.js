@@ -13,7 +13,7 @@ const Menu = () => {
 
 				<ul>
 					<li><a href='#about'>A propos</a></li>
-					<li><a href='#experience'>Expérience</a></li>
+					<li><a href='#experience'>Expériences</a></li>
 					<li><a href='#projects'>Projets</a></li>
 					<li><a href='#contact'>Me contacter</a></li>
 					<li><a href='#resume'>CV</a></li>
