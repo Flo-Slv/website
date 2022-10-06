@@ -8,7 +8,6 @@ const About = () => {
 	return (
 		<section id='about'>
 			<TitleSection
-				side={'left'}
 				number={'01.'}
 				title={'À propos de moi'}
 				name={'about-me'}

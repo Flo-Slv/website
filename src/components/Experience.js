@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import TitleSection from './utils/TitleSection.js';
+
 import '../css/experience.css';
 
 const Experience = () => {
@@ -9,15 +11,11 @@ const Experience = () => {
 
 	return (
 		<section id='experience'>
-			<div className={'titleSectionRight'}>
-				<div className={'experience'}>
-					<span>02.</span> Expérience
-				</div>
-
-				<div className={'vertical-line'}>
-					<hr />
-				</div>
-			</div>
+			<TitleSection
+				number={'02.'}
+				title={'Expériences'}
+				name={'experience'}
+			/>
 
 			<div className={'accordion'}>
 				<div className={'accordion-menu'}>

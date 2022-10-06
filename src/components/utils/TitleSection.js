@@ -2,10 +2,10 @@ import React from 'react';
 
 import '../../css/titleSection.css';
 
-const TitleSection = ({ side, number, title, name }) => {
+const TitleSection = ({ number, title, name }) => {
 	return (
-		<div className={`section-${side}`}>
-			<div className={`${name}-title title-${side}`}>
+		<div className={'section'}>
+			<div className={`${name}-title title`}>
 			<span>{number}</span> {title}
 			</div>
 

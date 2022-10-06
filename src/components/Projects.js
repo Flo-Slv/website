@@ -8,7 +8,6 @@ const Projects = () => {
 	return (
 		<section id='projects'>
 			<TitleSection
-				side={'left'}
 				number={'03.'}
 				title={'Projets'}
 				name={'projects'}
