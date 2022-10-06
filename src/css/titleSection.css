@@ -1,0 +1,36 @@
+.section-left {
+	width: 650px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 30px;
+	padding-bottom: 50px;
+	--color-one: #ebbcba;
+	--color-two: #eb6f92;
+}
+
+.section-left > .title-left {
+	color: var(--color-two);
+}
+
+.section-left > .about-me-title {
+	width: 76%;
+}
+
+.section-left > .projects-title {
+	width: 40%;
+}
+
+.section-left > .title-left > span {
+	color: var(--color-one);
+}
+
+.section-left > .vertical-line {
+	width: 100%;
+	flex-shrink: 2;
+}
+
+.section-left > .vertical-line > hr {
+	color: var(--color-one);
+	opacity: 0.2;
+}

@@ -3,34 +3,6 @@
 	flex-direction: column;
 }
 
-.titleSectionLeft {
-	width: 650px;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	font-size: 30px;
-	padding-bottom: 50px;
-}
-
-.titleSectionLeft > .about-me {
-	width: 76%;
-	color: #eb6f92;
-}
-
-.titleSectionLeft > .about-me > span {
-	color: #ebbcba;
-}
-
-.titleSectionLeft > .vertical-line {
-	width: 100%;
-	flex-shrink: 2;
-}
-
-.titleSectionLeft > .vertical-line > hr {
-	color: #ebbcba;
-	opacity: 0.2;
-}
-
 description {
 	display: flex;
 	flex-direction: row;

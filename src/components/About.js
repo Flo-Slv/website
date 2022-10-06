@@ -1,19 +1,18 @@
 import React from 'react';
 
+import TitleSection from './utils/TitleSection.js';
+
 import '../css/about.css';
 
 const About = () => {
 	return (
 		<section id='about'>
-			<div className={'titleSectionLeft'}>
-				<div className={'about-me'}>
-					<span>01.</span> À propos de moi
-				</div>
-
-				<div className={'vertical-line'}>
-					<hr />
-				</div>
-			</div>
+			<TitleSection
+				side={'left'}
+				number={'01.'}
+				title={'À propos de moi'}
+				name={'about-me'}
+			/>
 
 			<description>
 				<div className={'text'}>
