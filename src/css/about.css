@@ -3,35 +3,35 @@
 	flex-direction: column;
 }
 
-description {
+.about-description {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	font-size: 18px;
 }
 
-description > .text {
+.about-description > .text {
 	width: 650px;
 }
 
-description > .text > p {
+.about-description > .text > p {
 	padding-bottom: 20px;
 	text-align: justify;
 	text-indent: 40px;
 	line-height: 24px;
 }
 
-description > .text > p > span,
-description > .text > p > a {
+.about-description > .text > p > span,
+.about-description > .text > p > a {
 	color: #eb6f92;
 }
 
-description > .text > p > .full-name {
+.about-description > .text > p > .full-name {
 	font-weight: bold;
 	color: #ebbcba;
 }
 
-description > .text > p > a {
+.about-description > .text > p > a {
 	-webkit-transition: box-shadow 0.3s;
 	-moz-transition: box-shadow 0.3s;
 	-o-transition: box-shadow 0.3s;
@@ -39,7 +39,7 @@ description > .text > p > a {
 	padding: 0px 2px 0px 2px;
 }
 
-description > .text > p > a:hover {
+.about-description > .text > p > a:hover {
 	-webkit-box-shadow: 0px 0px 11px #ebbcba;
 	-moz-box-shadow: 0px 0px 11px #ebbcba;
 	box-shadow: 0px 0px 11px #ebbcba;
@@ -51,7 +51,7 @@ description > .text > p > a:hover {
 	font-weight: bold;
 }
 
-description > .pp {
+.about-description > .pp {
 	width: 300px;
 	-webkit-perspective: 1000px;
 	-moz-perspective: 1000px;
@@ -59,7 +59,7 @@ description > .pp {
 	margin: 0 auto;
 }
 
-description > .pp > figure {
+.about-description > .pp > figure {
 	width: 100%;
 	height: 300px;
 	background: url('../img/face_co.png');
@@ -80,7 +80,7 @@ description > .pp > figure {
 	transition: 1s transform;
 }
 
-description > .pp > figure > figcaption { 
+.about-description > .pp > figure > figcaption { 
 	width: 100%;
 	height: 50px;
 	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), black;

@@ -13,7 +13,7 @@ const About = () => {
 				name={'about-me'}
 			/>
 
-			<description>
+			<div className={'about-description'}>
 				<div className={'text'}>
 					<p>
 						Bonjour, je m'appelle <span className={'full-name'}>Florent Sanlaville</span>, mais l'on me surnomme <span>Flo</span> !
@@ -53,7 +53,7 @@ const About = () => {
 						<figcaption>Flo Slv, 2022</figcaption>
 					</figure>
 				</div>
-			</description>
+			</div>
 		</section>
 	);
 };
