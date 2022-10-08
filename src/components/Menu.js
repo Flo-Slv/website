@@ -12,8 +12,8 @@ const Menu = () => {
 				</span>
 
 				<ul>
-					<li><a href='#about'>A propos</a></li>
-					<li><a href='#experience'>Expériences</a></li>
+					<li><a href='#about'>À propos</a></li>
+					<li><a href='#experiences'>Expériences</a></li>
 					<li><a href='#projects'>Projets</a></li>
 					<li><a href='#contact'>Me contacter</a></li>
 					<li><a href='#resume'>CV</a></li>
@@ -26,11 +26,11 @@ const Menu = () => {
 				</li>
 
 				<li>
-					<a href='#about'><span>01.</span> A propos</a>
+					<a href='#about'><span>01.</span> À propos</a>
 				</li>
 
 				<li>
-					<a href='#experience'><span>02.</span> Expérience</a>
+					<a href='#experiences'><span>02.</span> Expériences</a>
 				</li>
 
 				<li>

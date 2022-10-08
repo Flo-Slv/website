@@ -10,10 +10,10 @@ const Experience = () => {
 	const toggle = name => setItem(name);
 
 	return (
-		<section id='experience'>
+		<section id='experiences'>
 			<TitleSection
 				number={'02.'}
-				title={'Expériences'}
+				title={'Expériences pro'}
 				name={'experience'}
 			/>
 

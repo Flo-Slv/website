@@ -9,7 +9,7 @@ const Projects = () => {
 		<section id='projects'>
 			<TitleSection
 				number={'03.'}
-				title={'Projets'}
+				title={'Projets perso'}
 				name={'projects'}
 			/>
 
