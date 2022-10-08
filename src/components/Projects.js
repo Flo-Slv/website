@@ -13,8 +13,19 @@ const Projects = () => {
 				name={'projects'}
 			/>
 
-			<div>
+			<div className={'left-project'}>
+				{/*<img
+					src='./images/link-in-bio.png'
+					alt='Link-in-bio image'
+				/>*/}
+				<div className={'left-img'}></div>
 
+				<div className={'left-content'}>
+					<h3>Link-in-bio</h3>
+					<div className={'left-text'}>
+						Une page web pour afficher mes reseaux sociaux.
+					</div>
+				</div>
 			</div>
 		</section>
 	);

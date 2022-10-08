@@ -2,4 +2,61 @@
 	display: flex;
 	flex-direction: column;
 	margin-top: 400px;
+	--col-bgc: #24283b;
+	--col-bgc-light: #363c59;
+	--col-one: #ebbcba;
+	--col-two: #eb6f92;
+	--col-two-light: rgba(235, 111, 146, .3);
+}
+
+.left-project {
+	display: flex;
+	flex-direction: row;
+	padding: 0 30px 50px 30px;
+}
+
+.left-img {
+	height: 300px;
+	background: url('../img/link-in-bio.png');
+	-webkit-background-size: 100%; 
+	-moz-background-size: 100%; 
+	background-size: 100%; 
+}
+
+/* .left-project > img { */
+/* 	height: 500px; */
+/* 	border: 1px solid var(--col-two-light); */
+/* 	border-radius: 4px;  */
+/* 	filter: grayscale(66%) contrast(1) brightness(88%); */
+/* 	transition: all 0.3s ease-in-out; */
+/* } */
+
+/* .left-project > img:hover { */
+/* 	border: 1px solid var(--col-two); */
+/* 	transform: scale(1.1); */
+/* 	filter: none; */
+/* 	transition: all 0.3s ease-in-out; */
+/* } */
+
+.left-content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	z-index: 9999;
+}
+
+.left-content > h3 {
+	font-size: 32px;
+	color: var(--col-two);
+	padding-bottom: 20px;
+}
+
+.left-text {
+	font-size: 18px;
+	border: 1px solid var(--col-one);
+	border-radius: 4px;
+	padding: 20px;
+	background-color: var(--col-bgc-light);
 }
