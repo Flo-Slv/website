@@ -11,16 +11,13 @@
 	color: #eb6f92;
 }
 
-.about-me-title {
+.about-me-title,
+.experience-title {
 	width: 76%;
 }
 
-.experience-title {
-	width: 56%;
-}
-
 .projects-title {
-	width: 40%;
+	width: 66%;
 }
 
 span {
