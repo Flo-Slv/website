@@ -14,11 +14,10 @@ const Projects = () => {
 			/>
 
 			<div className={'left-project'}>
-				{/*<img
+				<img
 					src='./images/link-in-bio.png'
-					alt='Link-in-bio image'
-				/>*/}
-				<div className={'left-img'}></div>
+					alt='Link-in-bio'
+				/>
 
 				<div className={'left-content'}>
 					<h3>Link-in-bio</h3>

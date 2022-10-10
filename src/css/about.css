@@ -62,7 +62,7 @@
 .about-description > .pp > figure {
 	width: 100%;
 	height: 300px;
-	background: url('../img/face_co.png');
+	background: no-repeat url('../img/face_co.png');
 	-webkit-background-size: 100%; 
 	-moz-background-size: 100%; 
 	background-size: 100%; 
