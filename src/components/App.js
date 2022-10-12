@@ -20,7 +20,7 @@ const App = () => {
 
 			animated.style.opacity = 1;
 			animated.style.height = '100vh';
-			animated.style.paddingTop = '120px';
+			animated.style.paddingTop = '100px';
 			loader.style.display = 'none';
 		}, 6000);
 	});
