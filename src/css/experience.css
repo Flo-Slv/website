@@ -15,8 +15,8 @@
 .accordion-menu {
 	display: flex;
 	flex-direction: column;
-	font-size: 18px;
-	color: #eb6f92;
+	font-size: 19px;
+	color: #ebbcba;
 	font-weight: bold;
 }
 
@@ -27,9 +27,9 @@
 	flex-direction: row;
 	align-items: center;
 	cursor: pointer;
-	background-color: #ebbcba;
+	background-color: #363c59;
 	padding-left: 20px;
-	border-left: 6px solid rgba(235, 111, 146, 0.4);
+	border-left: 6px solid rgba(235, 111, 146, 0.2);
 }
 
 .accordion-title:first-child {
@@ -41,7 +41,7 @@
 }
 
 .accordion-title:hover {
-	opacity: 0.9;
+	opacity: 0.7;
 	-webkit-transition: opacity 0.3s;
 	-moz-transition: opacity 0.3s;
 	-o-transition: opacity 0.3s;
