@@ -43,7 +43,7 @@ const App = () => {
 				</header>
 
 				<div className={'content'}>
-					<RightSidebar />
+					<LeftSidebar />
 
 					<main>
 						<Intro />
@@ -53,7 +53,7 @@ const App = () => {
 						<Footer />
 					</main>
 
-					<LeftSidebar />
+					<RightSidebar />
 				</div>
 			</div>
 		</div>
