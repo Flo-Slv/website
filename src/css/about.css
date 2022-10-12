@@ -12,6 +12,7 @@
 
 .about-description > .text {
 	width: 650px;
+	margin-right: 30px;
 }
 
 .about-description > .text > p {

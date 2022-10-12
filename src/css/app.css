@@ -17,7 +17,8 @@
 }
 
 main {
-	width: 100%;
+	width: 1000px;
+	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 	font-size: 50px;
@@ -25,7 +26,6 @@ main {
 	scrollbar-width: none; /* not display scrollbar for Firefox */
 	overflow-y: scroll;
 	scroll-behavior: smooth;
-	padding: 0px 200px 0px 300px;
 }
 
 main::-webkit-scrollbar {
