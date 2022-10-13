@@ -32,6 +32,16 @@ const Projects = () => {
 				text={"Une page web customisé quand j'ouvre mon navigateur"}
 				languages={['HTML', 'CSS']}
 			/>
+
+			<SideProject
+				side={'left'}
+				imgSource={'flo-slv.png'}
+				title={'flo-slv.dev'}
+				link={'https://flo-slv.dev'}
+				github={'website'}
+				text={"Mon site web personnel. Créé avec Create React App pour la base. Dans le but d'afficher ma présence sur internet."}
+				languages={['HTML', 'CSS', 'JavaScript', 'React.JS']}
+			/>
 		</section>
 	);
 };

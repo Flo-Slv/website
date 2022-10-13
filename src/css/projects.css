@@ -65,7 +65,8 @@ h3 {
 	z-index: 9999;
 }
 
-.text {
+.right-content > .text,
+.left-content > .text {
 	font-size: 18px;
 	border: 1px solid var(--col-one);
 	border-radius: 4px;
