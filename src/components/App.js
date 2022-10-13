@@ -7,6 +7,7 @@ import Intro from './Intro.js';
 import About from './About.js';
 import Experience from './Experience.js';
 import Projects from './Projects.js';
+import Contact from './Contact.js';
 import Footer from './Footer.js';
 
 import '../css/app.css';
@@ -50,6 +51,7 @@ const App = () => {
 						<About />
 						<Experience />
 						<Projects />
+						<Contact />
 						<Footer />
 					</main>
 
