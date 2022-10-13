@@ -40,7 +40,7 @@ const Projects = () => {
 				link={'https://flo-slv.dev'}
 				github={'website'}
 				text={"Mon site web personnel. Créé avec Create React App pour la base. Dans le but d'afficher ma présence sur internet."}
-				languages={['HTML', 'CSS', 'JavaScript', 'React.JS']}
+				languages={['HTML', 'CSS', 'JavaScript', 'React.js']}
 			/>
 		</section>
 	);
