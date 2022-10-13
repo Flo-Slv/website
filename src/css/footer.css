@@ -5,34 +5,16 @@ footer {
 
 .footer-desktop {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	gap: 20px;
 	padding-bottom: 60px;
-	font-size: 18px;
-	text-align: justify;
+	font-size: 16px;
 }
 
-.footer-desktop > div > a {
+footer > .footer-desktop > span {
 	color: #eb6f92;
-	-webkit-transition: box-shadow 0.3s;
-	-moz-transition: box-shadow 0.3s;
-	-o-transition: box-shadow 0.3s;
-	transition: box-shadow 0.3s;
-	padding: 0px 2px 0px 2px;
-}
-
-.footer-desktop > div > a:hover {
-	-webkit-box-shadow: 0px 0px 11px #ebbcba;
-	-moz-box-shadow: 0px 0px 11px #ebbcba;
-	box-shadow: 0px 0px 11px #ebbcba;
-	border-radius: 4px;
-	-webkit-transition: box-shadow 0.3s;
-	-moz-transition: box-shadow 0.3s;
-	-o-transition: box-shadow 0.3s;
-	transition: box-shadow 0.3s;
-	font-weight: bold;
+	padding: 0 8px;
 }
 
 .footer-smartphone {
