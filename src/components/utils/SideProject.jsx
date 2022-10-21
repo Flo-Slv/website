@@ -36,7 +36,7 @@ const SideProject = ({
 					{languages.map(language => {
 						if (language === 'Vanta.js')
 							return (
-								<span>
+								<span key={language}>
 									<a
 										href='https://www.vantajs.com/'
 										target='_blank'
@@ -47,7 +47,7 @@ const SideProject = ({
 								</span>
 							);
 
-						return (<span>{language}</span>);
+						return (<span key={language}>{language}</span>);
 					})}
 				</div>
 
