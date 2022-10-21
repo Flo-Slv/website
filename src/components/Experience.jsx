@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import TitleSection from './utils/TitleSection.js';
+import TitleSection from './utils/TitleSection.jsx';
 
 import '../css/experience.css';
 

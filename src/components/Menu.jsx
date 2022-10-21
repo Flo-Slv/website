@@ -42,7 +42,7 @@ const Menu = () => {
 				</li>
 
 				<li id='resume'>
-					<a href='#resume'>CV</a>
+					<a href='./download/CV-Flo-fr.pdf' download>CV</a>
 				</li>
 			</ul>
 		</nav>

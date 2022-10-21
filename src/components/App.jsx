@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react';
 
-import Menu from './Menu.js';
-import RightSidebar from './RightSidebar.js';
-import LeftSidebar from './LeftSidebar.js';
-import Intro from './Intro.js';
-import About from './About.js';
-import Experience from './Experience.js';
-import Projects from './Projects.js';
-import Contact from './Contact.js';
-import Footer from './Footer.js';
+import Menu from './Menu.jsx';
+import RightSidebar from './RightSidebar.jsx';
+import LeftSidebar from './LeftSidebar.jsx';
+import Intro from './Intro.jsx';
+import About from './About.jsx';
+import Experience from './Experience.jsx';
+import Projects from './Projects.jsx';
+import Contact from './Contact.jsx';
+import Footer from './Footer.jsx';
 
 import '../css/app.css';
 import '../css/loader.css';

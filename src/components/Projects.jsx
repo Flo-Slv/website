@@ -1,7 +1,7 @@
 import React from 'react';
 
-import TitleSection from './utils/TitleSection.js';
-import SideProject from './utils/SideProject.js';
+import TitleSection from './utils/TitleSection.jsx';
+import SideProject from './utils/SideProject.jsx';
 
 import '../css/projects.css';
 
