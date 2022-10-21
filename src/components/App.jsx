@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import Menu from './Menu.jsx';
 import RightSidebar from './RightSidebar.jsx';
@@ -9,11 +9,16 @@ import Experience from './Experience.jsx';
 import Projects from './Projects.jsx';
 import Contact from './Contact.jsx';
 import Footer from './Footer.jsx';
+import ModalCV from './ModalCV.jsx';
 
 import '../css/app.css';
 import '../css/loader.css';
 
 const App = () => {
+	const [show, setShow] = useState(Boolean(false));
+
+	const toggleModal = () => setShow(!show);
+
 	useEffect(() => {
 		setTimeout(() => {
 			const animated = document.getElementById('animated');
@@ -40,10 +45,12 @@ const App = () => {
 
 			<div id='animated'>
 				<header>
-					<Menu />
+					<Menu toggleModal={toggleModal} />
 				</header>
 
 				<div className={'content'}>
+					{show && <ModalCV toggleModal={toggleModal} />}
+
 					<LeftSidebar />
 
 					<main>

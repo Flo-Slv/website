@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../css/menu.css';
 
-const Menu = () => {
+const Menu = ({ toggleModal }) => {
 	return (
 		<nav className={'menu'}>
 			<label id='menu-hamburger'>
@@ -42,7 +42,7 @@ const Menu = () => {
 				</li>
 
 				<li id='resume'>
-					<a href='./download/CV-Flo-fr.pdf' download>CV</a>
+					<button onClick={() => toggleModal()}>CV</button>
 				</li>
 			</ul>
 		</nav>

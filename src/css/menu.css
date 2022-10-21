@@ -4,7 +4,6 @@
 	--bgc: #24283b;
 }
 
-
 #menu-hamburger {
 	display: none;
 }
@@ -96,11 +95,11 @@
 	font-weight: bold;
 }
 
-#menu-desktop > #resume > a {
+#menu-desktop > #resume > button {
 	color: var(--color-one);
 	font-weight: bold;
 	font-size: 16px;
-	margin: 20px 20px 0px 0px;
+	margin-right: 20px;
 	padding: 10px 10px 10px 10px;
 	border: 1px solid var(--color-one);
 	border-radius: 4px;
@@ -108,14 +107,16 @@
 	-moz-transition: 0.3s;
 	-o-transition: 0.3s;
 	transition: 0.3s;
+	background-color: inherit;
 }
 
-#menu-desktop > #resume > a:hover {
+#menu-desktop > #resume > button:hover {
 	background-color: #363c59;
 	-webkit-transition: 0.3s;
 	-moz-transition: 0.3s;
 	-o-transition: 0.3s;
 	transition: 0.3s;
+	cursor: pointer;
 }
 
 /* For smarphones and tablets */
