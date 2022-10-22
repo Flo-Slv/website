@@ -4,9 +4,9 @@
 	-moz-transition: opacity 1.2s ease-in-out;
 	-ms-transition: opacity 1.2s ease-in-out;
 	transition: opacity 1.2s ease-in-out;
-	height: 0px;
+	height: 0px; /* Needed to load starting animation */
 	overflow: hidden;
-	/* We set rules in JS after loading of animation */
+	/* We set rules in JS after loading starting animation */
 	/* opacity: 1; height: 100vh; padding-top: 100px; */
 }
 
@@ -30,6 +30,14 @@ main {
 
 main::-webkit-scrollbar {
     display: none; /* not display scrollbar for Chrome, Safari and Opera */
+}
+
+.scroll {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin-bottom: 30px;
+	margin-left: 10px;
 }
 
 /* For smartphones and tablets */
