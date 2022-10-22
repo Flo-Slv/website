@@ -62,7 +62,7 @@ h3 {
 
 .right-content > .text {
 	position: relative;
-	z-index: 9999;
+	z-index: 9000;
 }
 
 .right-content > .text,
