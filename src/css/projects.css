@@ -112,3 +112,55 @@ h3 {
 .right-links > a > svg {
 	width: 36px;
 }
+
+/* For small smartphones. */
+@media only screen and (max-width: 400px) {
+	img {
+		display: none;
+	}
+
+	#projects {
+		margin-top: 100px;
+	}
+
+	.project {
+		margin: 0 16px;
+		height: auto;
+		margin-bottom: 60px;
+	}
+
+	.left-content {
+		width: 100%;
+		position: inherit;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		top: 0;
+		padding: 10px;
+
+	}
+
+	.left-content > h3,
+	.right-content > h3 {
+		color: #ebbcba;
+		font-size: 22px;
+	}
+
+	.left-content > .text,
+	.right-content > .text {
+		padding: 16px;
+		margin-bottom: 0;
+		text-align: start;
+		font-size: 16px;
+	}
+
+	.left-links,
+	.right-links {
+		padding-top: 10px;
+	}
+
+	.right-content {
+		align-items: center;
+		padding: 10px;
+	}
+}

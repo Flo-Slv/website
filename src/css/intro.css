@@ -58,6 +58,7 @@ h1 {
 
 	.description {
 		width: 100%;
+		height: auto;
 	}
 
 	.description > p {
