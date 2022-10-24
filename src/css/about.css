@@ -154,33 +154,35 @@
 	transform: rotateX(-5deg) translateZ(-80px) scale(1);
 }
 
-/* @media screen and (max-width: 834px) { */
-/* 	.pp { */
-/* 		width: 50%; */
-/* 	}  */
+/* For smartphones */
+@media only screen and (max-width: 414px) {
+	.pp {
+		display: none;
+	}
+	
+	.about-description {
+		display: block;
+	}
 
-/* 	.pp > figure { */
-/* 		height: 45vw; */
-/* 	}  */
+	.about-description > .text {
+		width: 100%;
+		padding: 0 25px;
+	}
 
-/* 	.pp > figure > figcaption {  */
-/* 		top: 45vw; */
-/* 		font-size: 2vw; */
-/* 	}  */
-/* } */
+	p {
+		padding-bottom: 40px !important;
+	}
+	.about-description > .text > p:first-child {
+		padding-bottom: 10px !important;
+	}
 
-/* @media screen and (max-width: 500px) { */
-/* 	.pp {  */
-/* 		width: 80%;  */
-/* 		margin-top: 1rem;  */
-/* 	}  */
-
-/* 	.pp > figure {  */
-/* 		height: 70vw; */
-/* 	}  */
-
-/* 	.pp > figure > figcaption {  */
-/* 		top: 70vw; */
-/* 		font-size: 3vw; */
-/* 	}  */
-/* } */
+	.about-description > .text > p:first-child::after {
+		content: '';
+		background: no-repeat center/80% url('../img/face_co.png');
+		display: block;
+		margin: 0 auto;
+		width: 300px;
+		height: 300px;
+		border-radius: 50%;
+	}
+}
