@@ -132,7 +132,83 @@
 	padding-right: 10px;
 }
 
-@media only screen and (max-width: 820px) {
+/* For small smartphones. */
+@media only screen and (max-width: 400px) {
+	#experiences {
+		width: 100%;
+	}
+
+	.accordion {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.accordion-menu {
+		display: flex;
+		flex-direction: row;
+		font-size: 16px;
+		color: #ebbcba;
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+
+	.accordion-title {
+		width: 100%;
+		height: 100px;
+		justify-content: center;
+		padding-left: 0;
+		border-top: 6px solid rgba(235, 111, 146, .2);
+		border-right: 1px solid rgba(235, 111, 146, .2);
+		border-left: none;
+	}
+
+	.active-title {
+		border-top: 6px solid rgba(235, 111, 146, 1);
+	}
+
+	.accordion-content {
+		padding: 0 16px;
+	}
+
+	.accordion-content > .active-content > ul > li {
+		text-align: start;
+	}
+
+	.content-job {
+		font-size: 16px;
+		text-align: start;
+		padding-bottom: 10px;
+	}
+
+	.content-date {
+		display: flex;
+		align-items: center;
+		color: #ebbcba;
+		font-size: 15px;
+		padding-bottom: 10px;
+	}
+
+	.content-date > svg {
+		width: 22px;
+		margin-right: 10px;
+	}
+
+	.content-city {
+		display: flex;
+		align-items: center;
+		font-size: 16px;
+	}
+
+	.content-city > svg {
+		width: 22px;
+		margin-right: 10px;
+	}
+}
+
+/* For smartphones and tablets. */
+@media only screen and (min-width: 401px) and (max-width: 820px) {
 	#experiences {
 		width: 100%;
 	}
