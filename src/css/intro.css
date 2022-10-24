@@ -38,3 +38,29 @@ h1 {
 .description > p > a {
 	color: #eb6f92;
 }
+
+@media only screen and (max-width: 414px) {
+	#intro {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 100px 25px 0 25px;
+	}
+
+	.name {
+		font-size: 38px;
+	}
+
+	.things {
+		font-size: 30px;
+	}
+
+	.description {
+		width: 100%;
+	}
+
+	.description > p {
+		padding-bottom: 30px;
+		line-height: 24px;
+	}
+}

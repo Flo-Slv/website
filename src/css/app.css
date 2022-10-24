@@ -40,9 +40,16 @@ main::-webkit-scrollbar {
 	margin-left: 10px;
 }
 
-/* For smartphones and tablets */
-@media only screen and (max-width: 834px) {
-	main {
-		font-size: 20px;
+/* For smartphones */
+@media only screen and (max-width: 414px) {
+	.scroll {
+		display: none;
 	}
 }
+
+/* For smartphones and tablets */
+/* @media only screen and (max-width: 834px) { */
+/* 	main { */
+/* 		font-size: 20px; */
+/* 	} */
+/* } */
