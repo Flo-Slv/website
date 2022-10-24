@@ -49,3 +49,22 @@
 	transition: box-shadow 0.3s;
 	font-weight: bold;
 }
+
+@media only screen and (max-width: 400px) {
+	#contact {
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+
+	.contact {
+		padding: 0 16px;
+	}
+
+	.contact > h2 {
+		font-size: 30px;
+	}
+
+	.contact > p {
+		width: 100%;
+	}
+}
