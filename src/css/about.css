@@ -154,8 +154,42 @@
 	transform: rotateX(-5deg) translateZ(-80px) scale(1);
 }
 
-/* For smartphones */
-@media only screen and (max-width: 414px) {
+/* For small smartphones. */
+@media only screen and (max-width: 400px) {
+	.pp {
+		display: none;
+	}
+
+	.about-description {
+		display: block;
+	}
+
+	.about-description > .text {
+		width: 100%;
+		padding: 0 16px;
+	}
+
+	p {
+		padding-bottom: 40px !important;
+	}
+
+	.about-description > .text > p:first-child {
+		padding-bottom: 10px !important;
+	}
+
+	.about-description > .text > p:first-child::after {
+		content: '';
+		background: no-repeat center/80% url('../img/face_co.png');
+		display: block;
+		margin: 0 auto;
+		width: 300px;
+		height: 300px;
+		border-radius: 50%;
+	}
+}
+
+/* For smartphones and tablets. */
+@media only screen and (min-width: 401px) and (max-width: 822px) {
 	.pp {
 		display: none;
 	}
@@ -172,6 +206,7 @@
 	p {
 		padding-bottom: 40px !important;
 	}
+
 	.about-description > .text > p:first-child {
 		padding-bottom: 10px !important;
 	}
