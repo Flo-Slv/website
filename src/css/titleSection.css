@@ -35,8 +35,34 @@ hr {
 	opacity: 0.2;
 }
 
-/* For smartphones */
-@media only screen and (max-width: 414px) {
+/* For small smartphones. */
+@media only screen and (max-width: 400px) {
+	hr {
+		display: none;
+	}
+
+	.section {
+		display: block;
+		width: 100%;
+		text-align: center;
+		font-size: 24px;
+		padding-bottom: 40px;
+	}
+
+	.about-me-title,
+	.experience-title,
+	.projects-title,
+	.contact-title {
+		width: 100%;
+	}
+}
+
+/* For smartphones and tablets. */
+@media only screen and (min-width: 401px) and (max-width: 822px) {
+	hr {
+		display: none;
+	}
+
 	.section {
 		display: block;
 		width: 100%;
@@ -76,9 +102,5 @@ hr {
 		position: absolute;
 		top: 50%;
 		right: 2%;
-	}
-
-	hr {
-		display: none;
 	}
 }
