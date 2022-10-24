@@ -28,12 +28,57 @@ span {
 	color: #ebbcba;
 }
 
-.vertical-line {
+hr {
 	width: 100%;
 	flex-shrink: 2;
-}
-
-.vertical-line > hr {
 	color: #ebbcba;
 	opacity: 0.2;
+}
+
+/* For smartphones */
+@media only screen and (max-width: 414px) {
+	.section {
+		display: block;
+		width: 100%;
+		text-align: center;
+		font-size: 28px;
+	}
+
+	.about-me-title,
+	.experience-title,
+	.projects-title,
+	.contact-title {
+		position: relative;
+		width: 100%;
+	}
+
+	.about-me-title::before,
+	.experience-title::before,
+	.projects-title::before,
+	.contact-title::before {
+		content: '';
+		border-top: 1px solid #ebbcba;
+		display: block;
+		width: 28px;
+		position: absolute;
+		top: 50%;
+		left: 2%;
+	}
+
+	.about-me-title::after,
+	.experience-title::after,
+	.projects-title::after,
+	.contact-title::after {
+		content: '';
+		border-top: 1px solid #ebbcba;
+		display: block;
+		width: 28px;
+		position: absolute;
+		top: 50%;
+		right: 2%;
+	}
+
+	hr {
+		display: none;
+	}
 }
