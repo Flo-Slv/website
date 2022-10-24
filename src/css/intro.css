@@ -39,12 +39,35 @@ h1 {
 	color: #eb6f92;
 }
 
-/* For smartphones */
-@media only screen and (max-width: 414px) {
+/* For small smartphones */
+@media only screen and (max-width: 400px) {
 	#intro {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
+		padding: 100px 16px 0 16px;
+	}
+
+	.name {
+		font-size: 34px;
+	}
+
+	.things {
+		font-size: 26px;
+	}
+
+	.description {
+		width: 100%;
+	}
+
+	.description > p {
+		text-align: start;
+	}
+}
+
+/* For smartphones and tablets */
+@media only screen and (min-width: 401px) and (max-width: 822px) {
+	#intro {
 		padding: 100px 25px 0 25px;
 	}
 
