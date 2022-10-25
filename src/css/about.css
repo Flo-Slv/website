@@ -193,7 +193,11 @@
 }
 
 /* For smartphones and tablets. */
-@media only screen and (min-width: 401px) and (max-width: 834px) {
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+	#about {
+		margin-top: 160px;
+	}
+
 	.pp {
 		display: none;
 	}

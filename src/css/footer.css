@@ -21,15 +21,26 @@ footer > .footer-desktop > span {
 	display: none;
 }
 
-/* For small smartphones. */
-@media only screen and (max-width: 400px) {
+/* For small all smartphones and tablets. */
+@media only screen and (max-width: 834px) {
+	footer {
+		height: auto;
+		margin: 20px 0 50px 0;
+	}
+
 	.footer-desktop {
 		display: none;
 	}
 
-	footer {
-		height: auto;
-		margin-top: 0;
+	.footer-smartphone {
+		display: flex;
+		justify-content: center;
+		gap: 20px;
 	}
+
+	.footer-smartphone {
+		list-style-type: none;
+	}
+
 
 }

@@ -67,7 +67,7 @@ h1 {
 }
 
 /* For smartphones and tablets */
-@media only screen and (min-width: 401px) and (max-width: 834px) {
+@media only screen and (min-width: 401px) and (max-width: 600px) {
 	#intro {
 		padding: 100px 25px 0 25px;
 	}
@@ -82,10 +82,12 @@ h1 {
 
 	.description {
 		width: 100%;
+		height: auto;
 	}
 
 	.description > p {
 		padding-bottom: 30px;
 		line-height: 24px;
+		text-align: start;
 	}
 }

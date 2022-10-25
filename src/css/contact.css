@@ -69,3 +69,23 @@
 		width: 100%;
 	}
 }
+
+@media only screen and (min-width: 401px) and (max-width: 834px) {
+	#contact {
+		margin-top: 160px;
+		margin-bottom: 0;
+	}
+
+	.contact {
+		padding: 0 25px;
+	}
+
+	.contact > h2 {
+		font-size: 38px;
+	}
+
+	.contact > p {
+		width: 100%;
+		text-align: start;
+	}
+}
