@@ -41,15 +41,8 @@ main::-webkit-scrollbar {
 }
 
 /* For smartphones */
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 834px) {
 	.scroll {
 		display: none;
 	}
 }
-
-/* For smartphones and tablets */
-/* @media only screen and (max-width: 834px) { */
-/* 	main { */
-/* 		font-size: 20px; */
-/* 	} */
-/* } */

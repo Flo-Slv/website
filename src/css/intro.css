@@ -67,7 +67,7 @@ h1 {
 }
 
 /* For smartphones and tablets */
-@media only screen and (min-width: 401px) and (max-width: 822px) {
+@media only screen and (min-width: 401px) and (max-width: 834px) {
 	#intro {
 		padding: 100px 25px 0 25px;
 	}

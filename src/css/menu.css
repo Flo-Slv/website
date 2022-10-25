@@ -129,6 +129,14 @@
 		display: block;
 	}
 
+	#menu-hamburger > .hamburger-open {
+		display: block;
+	}
+
+	#menu-hamburger > .hamburger-close {
+		display: none;
+	}
+
 	label .menu-hamburger {
 		position: absolute;
 		right: -100px;

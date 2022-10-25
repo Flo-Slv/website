@@ -58,7 +58,7 @@ hr {
 }
 
 /* For smartphones and tablets. */
-@media only screen and (min-width: 401px) and (max-width: 822px) {
+@media only screen and (min-width: 401px) and (max-width: 834px) {
 	hr {
 		display: none;
 	}

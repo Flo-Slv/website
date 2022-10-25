@@ -21,6 +21,7 @@ footer > .footer-desktop > span {
 	display: none;
 }
 
+/* For small smartphones. */
 @media only screen and (max-width: 400px) {
 	.footer-desktop {
 		display: none;

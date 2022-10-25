@@ -50,6 +50,7 @@
 	font-weight: bold;
 }
 
+/* For small smartphones. */
 @media only screen and (max-width: 400px) {
 	#contact {
 		margin-top: 100px;

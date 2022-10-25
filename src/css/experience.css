@@ -209,7 +209,7 @@
 }
 
 /* For smartphones and tablets. */
-@media only screen and (min-width: 401px) and (max-width: 820px) {
+@media only screen and (min-width: 401px) and (max-width: 834px) {
 	#experiences {
 		width: 100%;
 	}

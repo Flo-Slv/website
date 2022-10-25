@@ -162,5 +162,6 @@ h3 {
 	.right-content {
 		align-items: center;
 		padding: 10px;
+		z-index: 9;
 	}
 }
