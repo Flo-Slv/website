@@ -38,7 +38,9 @@ const Menu = ({ toggleModal }) => {
 						<a href='#contact'>Me contacter</a>
 					</li>
 					<li>
-						<a href='#resume'>CV</a>
+						<a href='/download/CV-Flo-fr.pdf' download>
+							CV
+						</a>
 					</li>
 				</ul>
 			</label>
