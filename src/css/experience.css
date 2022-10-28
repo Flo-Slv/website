@@ -89,11 +89,22 @@
 }
 
 .content-date {
+	display: flex;
+	align-items: flex-end;
 	font-style: italic;
+	margin: 10px 0;
 }
 
 .content-city {
+	display: flex;
+	align-items: flex-end;
 	font-weight: bold;
+}
+
+.content-date > svg,
+.content-city > svg {
+	width: 28px;
+	margin-right: 20px;
 }
 
 .accordion-content > .active-content > .content-job > a {
@@ -185,23 +196,19 @@
 
 	.content-date {
 		display: flex;
-		align-items: center;
+		align-items: flex-end;
 		color: #ebbcba;
 		font-size: 15px;
 		padding-bottom: 10px;
 	}
 
-	.content-date > svg {
-		width: 22px;
-		margin-right: 10px;
-	}
-
 	.content-city {
 		display: flex;
-		align-items: center;
+		align-items: flex-end;
 		font-size: 16px;
 	}
 
+	.content-date > svg,
 	.content-city > svg {
 		width: 22px;
 		margin-right: 10px;
@@ -261,23 +268,19 @@
 
 	.content-date {
 		display: flex;
-		align-items: center;
+		align-items: flex-end;
 		color: #ebbcba;
 		font-size: 18px;
 		padding-bottom: 10px;
 	}
 
-	.content-date > svg {
-		width: 26px;
-		margin-right: 10px;
-	}
-
 	.content-city {
 		display: flex;
-		align-items: center;
+		align-items: flex-end;
 		font-size: 20px;
 	}
 
+	.content-date > svg,
 	.content-city > svg {
 		width: 26px;
 		margin-right: 10px;
