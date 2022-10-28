@@ -46,6 +46,18 @@ const SideProject = ({
 									</a>
 								</span>
 							);
+						else if (language === 'Vite')
+							return (
+								<span key={language}>
+									<a
+										href='https://www.vitejs.dev/'
+										target='_blank'
+										rel='noopener noreferrer'
+									>
+										Vite
+									</a>
+								</span>
+							);
 
 						return (<span key={language}>{language}</span>);
 					})}

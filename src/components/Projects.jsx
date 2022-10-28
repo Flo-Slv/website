@@ -29,8 +29,8 @@ const Projects = () => {
 			title: 'flo-slv.dev',
 			link: 'https://flo-slv.dev',
 			github: 'website',
-			text: "Mon site web personnel. Créé avec Create React App pour la base. Dans le but d'afficher ma présence sur internet.",
-			languages: ['HTML', 'CSS', 'JavaScript', 'React.js']
+			text: "Mon site web personnel. Créé avec Vite pour la base. Dans le but d'afficher ma présence sur internet.",
+			languages: ['HTML', 'CSS', 'JavaScript', 'React.js', 'Vite']
 		}
 	];
 
