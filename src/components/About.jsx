@@ -1,13 +1,46 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 
-import { getSpotifyPlaylist } from '../utils/spotifyBasic.js';
+import { accesParams, playlistEndpoint } from '../utils/spotifyBasic.js';
 import TitleSection from './utils/TitleSection.jsx';
 
 import '../css/about.css';
 
 const About = () => {
+	const [spotify, setSpotify] = useState();
+	const [isSpotifyOpen, setIsSpotifyOpen] = useState(Boolean(false));
+
 	useEffect(() => {
-		getSpotifyPlaylist();
+		(async () => {
+			try {
+				// Get Spotify access token.
+				const res = await axios.post(
+					accesParams.url,
+					accesParams.data,
+					accesParams.headers
+				);
+
+				// Get Spotify playlist.
+				if (res.data.access_token) {
+					try {
+						const playlist = await axios.get(
+							playlistEndpoint,
+							{
+								headers: {
+									'Authorization': `Bearer ${res.data.access_token}`
+								}
+							}
+						);
+
+						setSpotify(playlist.data);
+					} catch (err) {
+						console.error(err);
+					}
+				}
+			} catch (err) {
+				console.error(err);
+			}
+		})();
 	}, []);
 
 	return (
@@ -59,6 +92,40 @@ const About = () => {
 					</figure>
 				</div>
 			</div>
+
+			<button onClick={() => setIsSpotifyOpen(!isSpotifyOpen)}>
+				Voir ma playlist Spotify du moment
+			</button>
+
+			{(spotify && isSpotifyOpen) && (
+				<div id='spotify'>
+					<ul className={'tracks'}>
+						{spotify.tracks.items.map((item, i) =>
+							<li key={i}>
+								{console.log('item.track: ', item.track)}
+								<iframe
+									style={{ borderRadius: '12px' }}
+									src={`https://open.spotify.com/embed/track/${item.track.id}?utm_source=generator`}
+									width='70%'
+									height='352'
+									frameBorder='0'
+									allow='clipboard-write; encrypted-media; fullscreen; picture-in-picture'
+									loading='lazy'
+									>
+								</iframe>
+							</li>
+						)}
+					</ul>
+
+
+					<a
+						href={spotify.external_urls.spotify}
+						target='_blank'
+						>
+						Voir ma playlist sur Spotify
+					</a>
+				</div>
+			)}
 		</section>
 	);
 };
