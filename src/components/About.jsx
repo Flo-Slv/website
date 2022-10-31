@@ -93,39 +93,44 @@ const About = () => {
 				</div>
 			</div>
 
-			<button onClick={() => setIsSpotifyOpen(!isSpotifyOpen)}>
-				Voir ma playlist Spotify du moment
-			</button>
+			<div id='spotify'>
+				<button
+					className={'spotify-button'}
+					onClick={() => setIsSpotifyOpen(!isSpotifyOpen)}
+					>
+					Voir ma playlist Spotify du moment
+				</button>
 
-			{(spotify && isSpotifyOpen) && (
-				<div id='spotify'>
-					<ul className={'tracks'}>
-						{spotify.tracks.items.map((item, i) =>
-							<li key={i}>
-								{console.log('item.track: ', item.track)}
-								<iframe
-									style={{ borderRadius: '12px' }}
-									src={`https://open.spotify.com/embed/track/${item.track.id}?utm_source=generator`}
-									width='70%'
-									height='352'
-									frameBorder='0'
-									allow='clipboard-write; encrypted-media; fullscreen; picture-in-picture'
-									loading='lazy'
-									>
-								</iframe>
-							</li>
-						)}
-					</ul>
+				{(spotify && isSpotifyOpen) && (
+					<div className={'spotify-tracks'}>
+						<ul className={'tracks'}>
+							{spotify.tracks.items.map((item, i) =>
+								<li key={i}>
+									{console.log('item.track: ', item.track)}
+									<iframe
+										style={{ borderRadius: '12px' }}
+										src={`https://open.spotify.com/embed/track/${item.track.id}?utm_source=generator`}
+										width='100%'
+										frameBorder='0'
+										allow='clipboard-write; encrypted-media; fullscreen; picture-in-picture'
+										loading='lazy'
+										>
+									</iframe>
+								</li>
+							)}
+						</ul>
 
 
-					<a
-						href={spotify.external_urls.spotify}
-						target='_blank'
+						<a
+							href={spotify.external_urls.spotify}
+							target='_blank'
+							className={'spotify-link'}
 						>
-						Voir ma playlist sur Spotify
-					</a>
-				</div>
-			)}
+							Ecouter ma playlist sur Spotify
+						</a>
+					</div>
+				)}
+			</div>
 		</section>
 	);
 };

@@ -154,6 +154,68 @@
 	transform: rotateX(-5deg) translateZ(-80px) scale(1);
 }
 
+#spotify {
+	display: flex;
+	flex-direction: column;
+}
+
+.spotify-button {
+	min-width: 50%;
+	height: 50px;
+	padding: 5px;
+	align-self: center;
+	margin: 60px 0 40px 0;
+	font-size: 18px;
+	font-family: 'Gotham Rounded', Montserrat, Helvetica, Arial;
+	color: #191414;
+	background-color: #eb6f92;
+	opacity: .8;
+	border: none;
+	border-radius: 12px;
+	cursor: pointer;
+	transition: opacity .3s ease-in-out;
+}
+
+.spotify-button:hover {
+	opacity: 1;
+	transition: opacity .3s ease-in-out;
+}
+
+.tracks {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 20px;
+	flex-wrap: wrap;
+	list-style-type: none;
+}
+
+.tracks > li {
+	min-width: 30%;
+}
+
+.spotify-link {
+	margin-left: 10px;
+	color: #eb6f92;
+	font-size: 18px;
+	-webkit-transition: box-shadow 0.3s;
+	-moz-transition: box-shadow 0.3s;
+	-o-transition: box-shadow 0.3s;
+	transition: box-shadow 0.3s;
+	padding: 0px 2px 0px 2px;
+}
+
+.spotify-link:hover {
+	-webkit-box-shadow: 0px 0px 11px #ebbcba;
+	-moz-box-shadow: 0px 0px 11px #ebbcba;
+	box-shadow: 0px 0px 11px #ebbcba;
+	border-radius: 4px;
+	-webkit-transition: box-shadow 0.3s;
+	-moz-transition: box-shadow 0.3s;
+	-o-transition: box-shadow 0.3s;
+	transition: box-shadow 0.3s;
+	font-weight: bold;
+}
+
 /* For small smartphones. */
 @media only screen and (max-width: 400px) {
 	#about {
