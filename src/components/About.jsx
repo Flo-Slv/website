@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
+import { getSpotifyPlaylist } from '../utils/spotifyBasic.js';
 import TitleSection from './utils/TitleSection.jsx';
 
 import '../css/about.css';
 
 const About = () => {
+	useEffect(() => {
+		getSpotifyPlaylist();
+	}, []);
+
 	return (
 		<section id='about'>
 			<TitleSection

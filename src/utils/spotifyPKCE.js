@@ -37,8 +37,7 @@ const generateCodeChallenge = async codeVerifier => {
 // 		}, {});
 // };
 
-export const authEndpoint = 'https://accounts.spotify.com/authorize';
-
+const authEndpoint = 'https://accounts.spotify.com/authorize';
 const scopes = ['user-read-currently-playing', 'user-read-playback-state'];
 
 // PKCE extension.
