@@ -157,14 +157,15 @@
 #spotify {
 	display: flex;
 	flex-direction: column;
+	width: 650px;
 }
 
 .spotify-button {
 	min-width: 50%;
 	height: 50px;
-	padding: 5px;
+	padding: 0 5px;
 	align-self: center;
-	margin: 60px 0 40px 0;
+	margin: 20px 0 40px 0;
 	font-size: 18px;
 	font-family: 'Gotham Rounded', Montserrat, Helvetica, Arial;
 	color: #191414;

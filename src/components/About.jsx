@@ -84,13 +84,18 @@ const About = () => {
 					<p>
 						Grâce à <a href='https://www.executeprogram.com/' target='_blank' rel='noopener noreferrer'>Execute Program</a>, j'apprends <span>TypeScript</span>, et j'essaie également de me former sur <span>Rust</span> qui est un langage bas niveau.
 					</p>
+					<p>
+						Mis à part cela, j'aime les sports de combats et le football, ainsi que coder en musique.
+					</p>
 				</div>
+
 
 				<div className={'pp'}>
 					<figure>
 						<figcaption>Flo Slv, 2022</figcaption>
 					</figure>
 				</div>
+
 			</div>
 
 			<div id='spotify'>
@@ -98,7 +103,7 @@ const About = () => {
 					className={'spotify-button'}
 					onClick={() => setIsSpotifyOpen(!isSpotifyOpen)}
 					>
-					Voir ma playlist Spotify du moment
+					Ma playlist Spotify du moment
 				</button>
 
 				{(spotify && isSpotifyOpen) && (
@@ -125,7 +130,7 @@ const About = () => {
 							href={spotify.external_urls.spotify}
 							target='_blank'
 							className={'spotify-link'}
-						>
+							>
 							Ecouter ma playlist sur Spotify
 						</a>
 					</div>
