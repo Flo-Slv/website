@@ -6,35 +6,38 @@ const SlideProject = ({ projects }) => {
 			{projects.map((p, i) => (
 				<li key={i}>
 					<img src={`./images/${p.imgSource}`} />
+
 					<div className={'project-slider-content'}>
 						<h2>{p.title}</h2>
 						<p>{p.text}</p>
+
 						<ul className={'project-slider-languages'}>
 							{p.languages.map((l, j) => {
 								if (l === 'Vanta.js')
-								return (
-									<li key={j}>
-										<a
-											href='https://www.vantajs.com/'
-											target='_blank'
-											rel='noopener noreferrer'
+									return (
+										<li key={j}>
+											<a
+												href='https://www.vantajs.com/'
+												target='_blank'
+												rel='noopener noreferrer'
 											>
-											Vanta.js
-										</a>
-									</li>
-								);
+												Vanta.js
+											</a>
+										</li>
+									);
 								else if (l === 'Vite')
-								return (
-									<li key={j}>
-										<a
-											href='https://www.vitejs.dev/'
-											target='_blank'
-											rel='noopener noreferrer'
+									return (
+										<li key={j}>
+											<a
+												href='https://www.vitejs.dev/'
+												target='_blank'
+												rel='noopener noreferrer'
 											>
-											Vite
-										</a>
-									</li>
-								);
+												Vite
+											</a>
+										</li>
+									);
+
 								return <li key={j}>{l}</li>
 							})}
 						</ul>
