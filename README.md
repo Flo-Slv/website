@@ -1,4 +1,10 @@
+# My personal website
+
 <a href="https://flo-slv.dev" target="_blank">www.flo-slv.dev</a>
+
+I am using HTML, CSS, React.js and Vite.js.
+
+---
 
 This project was bootstrapped with Vite.js (https://vitejs.dev)
 
