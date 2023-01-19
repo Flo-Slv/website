@@ -30,10 +30,7 @@ Your app is ready to be deployed!
 ---
 
 ### Pour la prod
-```sh
-npm run build
-```
-
+- `npm run build`
 - Push le code sur GitHub.
 - Se connecter en `ssh` sur le server.
 - Supprimer le dossier `website`.
