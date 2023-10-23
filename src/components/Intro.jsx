@@ -10,14 +10,14 @@ const Intro = () => {
 			<div className={'name'}>Florent Sanlaville.</div>
 
 			<div className={'things'}>Je construis des trucs sur internet.</div>
-			
+
 			<div className={'description'}>
 				<p>
-					Je suis un développeur <a href='https://tinyurl.com/5n6e7b66' target='_blank' rel='noopener noreferrer'>web</a> spécialisé en <span>JavaScript</span>. 
+					Je suis un développeur <a href='https://tinyurl.com/5n6e7b66' target='_blank' rel='noopener noreferrer'>web</a> spécialisé en <span>JavaScript</span>.
 				</p>
 				<p>J'adore les nouvelles technologies et tout ce qui me permet de devenir un meilleur développeur.
 				</p>
-				<p>Je suis actuellement à la recherche d'un emploi.</p>
+				<p>J'apprends actuellement la cybersecurité.</p>
 			</div>
 		</section>
 	);
